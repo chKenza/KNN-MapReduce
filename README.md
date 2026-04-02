@@ -1,1 +1,1 @@
-# KNN Implementartion using MapReduce in Spark
+# KNN Implementation using MapReduce in Spark
