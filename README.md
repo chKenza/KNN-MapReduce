@@ -7,6 +7,7 @@ This repository presents the implementation of K Nearest Neighbors (KNN) in MapR
 - **knn-mr-rdd.ipynb**: KNN MapReduce using the Spark RDD API.
 - **knn-mr-df.ipynb**: KNN MapReduce using the Spark DataFrame API.
 - **rdd** and **df**: Results of RDD and DataFrame implementations.
+- **KNN_MR.pdf**: Project Report
 
 
 ## Algorithm
@@ -22,4 +23,4 @@ The MR-KNN algorithm splits the training set into `m` partitions. Each map task 
 ## Setup
 
 1. Download the Poker Hand dataset from the [UCI ML Repository](http://archive.ics.uci.edu/ml) and place it in a folder named `Dataset/` at the root of the repository.
-2. Run **knn-mr-rdd.ipynb** and/or **knn-mr-df.ipynb** in a Jupyter environment with PySpark configured.
+2. Run **knn-mr-rdd.ipynb** and **knn-mr-df.ipynb** in a Jupyter environment with PySpark configured.
